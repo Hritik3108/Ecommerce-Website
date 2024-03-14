@@ -1,0 +1,332 @@
+.container-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+/* HEADER CSS */
+#header-top{
+    background-color: #262626;
+    color: white;
+}
+
+.logo{
+    width: 50px;
+}
+
+.search-input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0px 0px 0px 10px;
+    border: none;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 0px 10px 0px 0px;
+    border: none;
+    background-color: #C7C405;
+    color: #1D0000;
+}
+
+#container-header{
+}
+
+#header-top-col-3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    width: fit-content;
+}
+
+#cart-icon{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 60px;
+    font-size: 40px;
+    color: #C7C405;
+}
+
+#login-btn{
+    width: 20%;
+    height: 40px;
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #C7C405;
+    color: #1D0000;
+}
+
+.Nav-list{
+    display: flex;
+}
+
+
+section{
+    background-image: url("https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100% 100%;
+}
+
+/* HOME CSS */
+.home-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img-heading{
+    font-size: 100px;
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+
+.home-img-innerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 250px;
+}
+
+#home-img-text{
+    color: white;
+    font-size: 20px;
+    font-weight:400;
+
+    /* line-height: 2rem; */
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 0.5em;
+    padding: 5px;
+}
+
+/* FOOTER CSS */
+.footer-div{
+}
+
+footer{
+    position: sticky;
+    background-color: #262626;
+    color: white;
+    width: 100%;
+    padding: 2%;
+}
+
+.custom-btn-footer{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: fit-content;
+}
+
+.custom-btn-footer:hover{
+    color: white;
+}
+
+.footer-btn-top{
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 600;    
+}
+
+#footer-bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+#footer-bottom{
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    margin-top: 20px;
+}
+
+/* CAROUSEL CSS */
+.carousel {
+    background-color: #f0f0f0; 
+}
+
+.custom-btn {
+    background-color: #C7C405; 
+    color: #262626;
+    border-color: #C7C405; 
+    font-weight: bold;
+}
+
+.custom-btn:hover {
+    background-color: #f7c405; 
+    border:none; 
+}
+
+.carousel-control-prev-icon{
+    background-color: gray;
+}
+
+.carousel-control-next-icon{
+    background-color: gray;
+}
+
+.custom-card-bg{
+    /* background-color: #F2F2F2; */
+    background-color: white;
+    color: #262626;
+}
+
+.carousel-allproduct{
+    background-color: white;
+}
+
+.card-allproduct{
+    background-color: #f0f0f0;
+}
+
+.carousel-heading{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-shadow: 1px 2px grey;
+}
+
+/* CONTACT CSS */
+.img-contact{
+    margin-left: 100px;
+    width: 460px;
+}
+
+.contact-Container{
+    margin: 5px;
+    padding: 70px;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.form-label{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.sub-btn{
+    margin-top: 20px;
+}
+
+/* LOGIN CSS */
+
+.loggin-container{
+    padding: 40px;
+}
+
+/* CART CSS */
+
+.card-header{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.cart-img{
+    width: 200px;
+    height: 250px;
+}
+
+.list-group-item{
+    margin-bottom: 0;
+}
+
+.list-group-item:first-child {
+    border: none;
+  }
+
+.custom-btn-cart {
+    background-color: #C7C405; 
+    color: #262626;
+    border-color: #C7C405; 
+    font-weight: bold;
+}
+
+.custom-btn-cart:hover {
+    background-color: #a7c405; 
+    border-color: #a7c405; 
+}
+
+.custom-btn-checkout{
+    background-color: #C7C405; 
+    color: #262626;
+    border-color: #C7C405; 
+}
+
+.custom-btn-checkout:hover {
+    background-color: #a7c405; 
+    border-color: #a7c405; 
+}
+
+
+/* ALL PRODUCT */
+.allproduct-card{
+    margin: 10px;
+    background-color: #f0f0f0;
+    padding: 2px;
+}
+
+.card-img-top{
+    height: 300px;
+    width: 200px;
+}
+
+
+/* Sections */
+#dress-section, #pants-section, #shirt-section{
+    background-image: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+#header-top{
+    display: flex;
+    flex-direction: column;
+}    
+
+#header-top-col-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#cart-icon{
+    /* margin-left: 0px; */
+    /* width: fit-content; */
+}
+
+.img-contact{
+    margin-left: 0px;
+    width: 260px;
+}
+
+
+}
