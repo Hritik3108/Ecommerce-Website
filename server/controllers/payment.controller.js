@@ -68,8 +68,8 @@ exports.processPayment= async(req,res) => {
                 "payment_method": "paypal"
             },
             "redirect_urls": {
-                "return_url": "http://localhost:5100/ecom/payment/success",
-                "cancel_url": "http://localhost:5100/ecom/payment/failed"
+                "return_url": "https://ecommerce-website-anru.onrender.com/ecom/payment/success",
+                "cancel_url": "https://ecommerce-website-anru.onrender.com/ecom/payment/failed"
             },
             "transactions": [{
                 "item_list": {
