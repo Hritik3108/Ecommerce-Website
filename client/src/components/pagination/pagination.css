@@ -1,0 +1,26 @@
+.page-btn {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #C7C405;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #C7C405;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.search-container{
+    margin-left: 150px;
+}
+
+.page-btn:hover {
+    background-color: #f7c405;
+    color: #333333;
+}
+
+.page-btn.active {
+    background-color: #f7c405;
+    color: #333333;
+}

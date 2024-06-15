@@ -1,0 +1,78 @@
+.table-container {
+    padding: 15px;
+}
+
+.table {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    border-bottom: 2px solid black;
+    background-color: #d63384; 
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table td, .table th {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.table .profile-pic {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #ddd; /* Border around profile pictures */
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table .btn {
+    font-size: 0.875rem; /* Smaller button text */
+}
+
+.table .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.table th, .table td {
+    text-align: center; /* Center align table text */
+}
+
+.success-text{
+    color:#20c997;
+}
+
+.failed-text{
+    color: #dc3545;
+}
+
+.table-image{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.product-rating .star {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+.product-rating .star.filled {
+    color: #f39c12;
+}

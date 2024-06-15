@@ -1,0 +1,30 @@
+.dashboard {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.dashboard .card {
+    border-radius: 0.5rem;
+}
+
+.dashboard .card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.dashboard .card-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.dashboard .card-text {
+    font-size: 1rem;
+}
+
+.dashboard .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}

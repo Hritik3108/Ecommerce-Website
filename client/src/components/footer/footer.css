@@ -1,0 +1,41 @@
+/* FOOTER CSS */
+.footer-div{
+}
+
+footer{
+    position: sticky;
+    background-color: #262626;
+    color: white;
+    width: 100%;
+    padding: 2%;
+}
+
+.custom-btn-footer{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.custom-btn-footer:hover{
+    color: white;
+}
+
+.footer-btn-top{
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 600;    
+}
+
+#footer-bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+#footer-bottom{
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+    margin-top: 20px;
+}
