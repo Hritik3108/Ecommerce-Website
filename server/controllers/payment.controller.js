@@ -154,7 +154,7 @@ exports.paymentSuccess= async(req,res) => {
                         orderId: stringId,
                         status: 'failed'
                     });
-                    return res.redirect(`http://localhost:5100/ecom/orderfailed?${params}`);
+                    return res.redirect(`https://ecommerce-website-anru.onrender.com/ecom/orderfailed?${params}`);
                 }).catch(function(err){console.log({message:err.message})});
 
                 // return res.redirect("http://localhost:5173/failed");
@@ -175,7 +175,7 @@ exports.paymentSuccess= async(req,res) => {
                             orderId: stringId,
                             status: 'success'
                         });
-                        return res.redirect(`http://localhost:5100/ecom/orderplaced?${params}`);
+                        return res.redirect(`https://ecommerce-website-anru.onrender.com/ecom/orderplaced?${params}`);
                     }).catch(function(err){console.log({message:err.message})});
 
                     // return res.redirect("http://localhost:5173/success");
