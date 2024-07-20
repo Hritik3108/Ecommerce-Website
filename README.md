@@ -1,4 +1,5 @@
-![Screenshot (448)](https://github.com/user-attachments/assets/04ec11a6-7b30-48b4-9c04-0a6facb9ba05)# Ecommerce-Website
+# Ecommerce Website
+
 # Home Page with user menu
 ![Screenshot (444)](https://github.com/user-attachments/assets/3cec1250-c139-436a-9671-88a5aea554e5)
 ![Screenshot (446)](https://github.com/user-attachments/assets/8e627433-4c7b-40a6-995a-86cf03e36745)
